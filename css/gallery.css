@@ -48,6 +48,8 @@ position: relative;
 perspective: 1000px;
 transform-style: preserve-3d;
 margin-top: -7%;
+box-sizing: border-box;
+margin-left: -10%;
 }
 
 #slider label{
@@ -65,7 +67,7 @@ transition: transform 0.4s ease;
 }
 
 img{
- margin: auto;
+margin: auto;
 width: 100%;
 height: 100%;
 border: 2px solid #000000;
@@ -278,9 +280,9 @@ display: none;
   margin-top: -2%;
 }
 #slider label{
-  height: 85%;
-  width: 60%;
-  margin-left: 20%;
+  height: 100%;
+  width: 75%;
+  margin-left: 5%;
 }
 }
 #aluminationLogo{
